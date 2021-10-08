@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Passives - Crystals and Oscillators
+LastFocusedTable=ICs - Amplifiers
 [Table1]
 SchemaName=
 TableName=Connectors
@@ -59,6 +59,9 @@ TableName=ICs - Amplifiers
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=104|Description0=94|Library Ref0=125|Library Path0=497|Footprint Ref0=105|Footprint Path0=510|Footprint Ref 20=117|Footprint Path 20=510|Footprint Ref 30=117|Footprint Path 30=510|ID0=39|Category0=81|Manufacturer 10=123|Manufacturer Part Number 10=203|RoHS 10=70|Supplier 10=86|Supplier Part Number 10=169|Description 10=221|Category 10=291|Stock 10=70|Pricing 10=662|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169|Amplifier Type0=131|Case/Package0=109|Common Mode Rejection Ratio0=216|Gain Bandwidth Product0=174|Input Bias Current0=137|Input Offset Voltage (Vos)0=185|Max Operating Temperature0=199|Max Supply Voltage0=147|Min Operating Temperature0=197|Min Supply Voltage0=145|Mount0=100|Number of Circuits0=140|Number of Elements0=150|Number of Pins0=120|Operating Supply Current0=183|Output Current per Channel0=199|Package Quantity0=133|Packaging0=95|Radiation Hardening0=150|RoHS Compliant0=125|Series0=155|Slew Rate0=83|Unity Gain Bandwidth Product0=211|Voltage Gain0=104|ComponentLink1URL0=853|ComponentLink1Description0=853
 [Table7]
 SchemaName=
 TableName=ICs - Microcontrollers
@@ -91,13 +94,16 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=39|Part Number0=104|Description0=94|Manufacturer0=108|Library Ref0=90|Library Path0=99|Footprint Ref0=105|Footprint Path0=114|Footprint Ref 20=117|Footprint Path 20=126|Footprint Ref 30=117|Footprint Path 30=126|Manufacturer 10=120|Manufacturer Part Number 10=203|RoHS 10=70|ComponentLink1URL0=156|ComponentLink1Description0=200|ComponentLink2URL0=156|ComponentLink2Description0=200|ComponentLink3URL0=156|ComponentLink3Description0=200|ComponentLink4URL0=156|ComponentLink4Description0=200|ComponentLink5URL0=156|ComponentLink5Description0=200|Supplier 10=86|Supplier Part Number 10=169|Description 10=106|Category 10=93|Stock 10=70|Pricing 10=78|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169
+BrowserOrder_Visible=ID0=39|Part Number0=210|Description0=94|Manufacturer0=108|Library Ref0=100|Library Path0=173|Footprint Ref0=126|Footprint Path0=185|Footprint Ref 20=125|Footprint Path 20=185|Footprint Ref 30=126|Footprint Path 30=185|Manufacturer 10=122|Manufacturer Part Number 10=210|RoHS 10=70|ComponentLink1URL0=156|ComponentLink1Description0=200|ComponentLink2URL0=156|ComponentLink2Description0=200|ComponentLink3URL0=156|ComponentLink3Description0=200|ComponentLink4URL0=156|ComponentLink4Description0=200|ComponentLink5URL0=156|ComponentLink5Description0=200|Supplier 10=86|Supplier Part Number 10=290|Description 10=106|Category 10=93|Stock 10=70|Pricing 10=570|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169
 [Table12]
 SchemaName=
 TableName=Passives - EMI/FRI Components
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=142|Description0=94|Library Ref0=90|Library Path0=317|Footprint Ref0=147|Footprint Path0=330|Footprint Ref 20=146|Footprint Path 20=330|Footprint Ref 30=147|Footprint Path 30=330|ID0=39|Manufacturer0=108|Manufacturer 10=120|Manufacturer Part Number 10=203|RoHS 10=70|ComponentLink1URL0=663|ComponentLink1Description0=663|ComponentLink2URL0=843|ComponentLink2Description0=843|ComponentLink3URL0=663|ComponentLink3Description0=663|ComponentLink4URL0=663|ComponentLink4Description0=663|ComponentLink5URL0=559|ComponentLink5Description0=559|Supplier 10=86|Supplier Part Number 10=169|Description 10=511|Category 10=93|Stock 10=70|Pricing 10=846|Supplier 20=86|Supplier Part Number 20=169|Supplier 30=86|Supplier Part Number 30=169|Case Code (Imperial)0=151|Case Code (Metric)0=141|Case/Package0=109|Category0=81|Core Material0=108|DC Resistance (DCR)0=150|Height0=70|Impedance0=92|Length0=70|Manufacturer Part Number0=191|Max DC Current0=125|Mount0=100|Package Quantity0=133|Packaging0=95|REACH SVHC0=107|RoHS Compliant0=125|Width0=62|Current Rating0=115|Depth0=63|Lead Free0=84|Material0=81|Max Current Rating0=145|Max Operating Temperature0=199|Min Operating Temperature0=197|Number of Circuits0=140|Number of Lines0=126|Number of Pins0=120|Resistance0=88|Resistor Type0=106|Shielding0=80|Termination0=98|Test Frequency0=117|Tolerance0=83
 [Table13]
 SchemaName=
 TableName=Passives - Inductors
