@@ -19,13 +19,16 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Passives - Capacitors
+LastFocusedTable=Discrete Semiconductors - Transistors
 [Table1]
 SchemaName=
 TableName=Batteries
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=95|Description0=97|Library Ref0=77|Library Path0=166|Footprint Ref0=106|Footprint Path0=141|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|ID0=34|Category0=69|Manufacturer 10=102|Manufacturer Part Number 10=169|RoHS 10=60|ComponentLink1URL0=131|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink3URL0=131|ComponentLink3Description0=170|ComponentLink4URL0=131|ComponentLink4Description0=170|ComponentLink5URL0=131|ComponentLink5Description0=170|Supplier 10=75|Supplier Part Number 10=142|Description 10=91|Category 10=78|Stock 10=60|Pricing 10=67|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Capacity0=66|Case/Package0=93|Chemistry/Technology0=137|Height0=58|Lead Free0=72|Number of Pins0=102|Output Voltage0=104|Packaging0=76|REACH SVHC0=89|Rechargeability0=102|Voltage Rating0=100|Weight0=61|Width0=55
 [Table2]
 SchemaName=
 TableName=Connectors
@@ -50,6 +53,9 @@ TableName=Discrete Semiconductors - Transistors
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=473|Library Ref0=77|Library Path0=220|Footprint Ref0=101|Footprint Path0=151|Footprint Ref 20=101|Footprint Path 20=151|Footprint Ref 30=101|Footprint Path 30=151|ID0=34|Manufacturer0=120|Category0=69|Manufacturer 10=102|Manufacturer Part Number 10=169|RoHS 10=60|ComponentLink1URL0=522|ComponentLink1Description0=522|ComponentLink2URL0=491|ComponentLink2Description0=491|ComponentLink3URL0=491|ComponentLink3Description0=491|ComponentLink4URL0=417|ComponentLink4Description0=417|ComponentLink5URL0=417|ComponentLink5Description0=417|Supplier 10=75|Supplier Part Number 10=142|Description 10=336|Category 10=78|Stock 10=60|Pricing 10=530|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Case/Package0=93|Current Rating0=99|Element Configuration0=140|Height0=58|Hold Current0=90|Lead Free0=72|Length0=59|Manufacturer Part Number0=160|Max Operating Temperature0=168|Max Repetitive Reverse Voltage (Vrrm)0=216|Min Operating Temperature0=167|Mount0=84|Number of Pins0=102|Package Quantity0=112|Packaging0=81|Radiation Hardening0=131|REACH SVHC0=89|RMS Current (Irms)0=118|RoHS Compliant0=107|Series0=53|Termination0=85|Voltage Rating (DC)0=124|Weight0=65|Width0=55|Average Rectified Current0=154|Reverse Recovery Time0=137|Max Forward Surge Current (Ifsm)0=195|Max Reverse Voltage (DC)0=153|Continuous Drain Current (ID)0=177|Drain to Source Resistance0=160|Drain to Source Voltage (Vdss)0=179|Fall Time0=68|Gate to Source Voltage (Vgs)0=170|Input Capacitance0=116|Max Power Dissipation0=140|Number of Channels0=129|Rds On Max0=85|Rise Time0=71|Turn-Off Delay Time0=126|Turn-On Delay Time0=125|RoHS0=51|Power Dissipation0=116|Number of Elements0=127|Threshold Voltage0=118|Nominal Vgs0=88|Drain to Source Breakdown Voltage0=207|On-State Resistance0=126|Dual Supply Voltage0=128|Drain-source On Resistance-Max0=190
 [Table6]
 SchemaName=
 TableName=Electromechanical - Audio Products
@@ -116,9 +122,6 @@ TableName=Passives - Capacitors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=117|Description0=412|Library Ref0=116|Library Path0=135|Footprint Ref0=140|Footprint Path0=175|Footprint Ref 20=139|Footprint Path 20=175|Footprint Ref 30=140|Footprint Path 30=175|ID0=34|Manufacturer0=93|Manufacturer 10=102|Manufacturer Part Number 10=169|RoHS0=51|ComponentLink1URL0=525|ComponentLink1Description0=525|ComponentLink2URL0=566|ComponentLink2Description0=566|ComponentLink3URL0=566|ComponentLink3Description0=566|ComponentLink4URL0=507|ComponentLink4Description0=507|ComponentLink5URL0=504|ComponentLink5Description0=504|Supplier 10=97|Supplier Part Number 10=166|Description 10=1379|Category 10=175|Stock 10=60|Pricing 10=767|Supplier 20=87|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Case Code (Imperial)0=127|Case Code (Metric)0=118|Case/Package0=93|Construction0=90|Depth0=55|Features0=93|Height0=58|Lead Free0=72|Length0=59|Manufacturer Part Number0=160|Max Operating Temperature0=168|Max Power Dissipation0=140|Military Standard0=111|Min Operating Temperature0=167|Number of Terminations0=148|Package Quantity0=112|Packaging0=81|Power Rating0=92|REACH SVHC0=89|Resistance0=77|Resistance Tolerance0=130|Resistor Type0=91|RoHS Compliant0=107|Series0=53|Size Code0=73|Temperature Coefficient0=147|Termination0=85|Tolerance0=73|Voltage Rating0=100|Weight0=61|Width0=57|Working Voltage0=111|Technology0=83|Mount0=84|Contact Plating0=102|Thickness0=73|Radiation Hardening0=131|Capacitance0=85|Dielectric0=70|HEIGHT - Seated (Max)0=137|Voltage Rating (DC)0=124|Number of Pins0=102|Dielectric Material0=115|Ripple Current0=98|Leakage Current0=107|Life (Hours)0=81|Ripple Current (AC)0=121|Voltage0=63|Dissipation Factor0=116|Diameter0=69|Category0=175|Impedance0=79|Lead Pitch0=75|Lead Diameter0=96
 [Table17]
 SchemaName=
 TableName=Passives - Crystals and Oscillators
