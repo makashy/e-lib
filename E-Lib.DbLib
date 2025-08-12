@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=~TMPCLP144501
+LastFocusedTable=Batteries
 [Table1]
 SchemaName=
 TableName=Batteries
@@ -32,9 +32,6 @@ TableName=Connectors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=102|Description0=488|Library Ref0=120|Library Path0=183|Footprint Ref0=265|Footprint Path0=195|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|ID0=34|Category0=69|Manufacturer 10=107|Manufacturer Part Number 10=169|RoHS 10=60|ComponentLink1URL0=131|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink3URL0=131|ComponentLink3Description0=170|ComponentLink4URL0=131|ComponentLink4Description0=170|ComponentLink5URL0=131|ComponentLink5Description0=170|Supplier 10=75|Supplier Part Number 10=142|Description 10=91|Category 10=78|Stock 10=60|Pricing 10=67|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Actuator Material0=112|Contact Material0=108|Contact Plating0=102|Contact Resistance0=120|Current Rating0=99|Depth0=55|Flammability Rating0=124|Housing Color0=98|Housing Material0=112|Length0=59|Manufacturer0=93|Manufacturer Part Number0=160|Max Operating Temperature0=168|Max Voltage Rating (AC)0=147|Min Operating Temperature0=167|Mount0=58|Number of Positions0=128|Number of Rows0=109|Orientation0=83|Package Quantity0=112|Packaging0=76|Pitch0=48|RoHS Compliant0=107|Termination0=85|Voltage Rating0=100|Applicable Wire Diameter0=153|Field10=54|Field20=54|Field30=54|Sub Category 10=184|Sub Category 20=238|Nickname0=88
 [Table3]
 SchemaName=
 TableName=Discrete Semiconductors - Diodes
@@ -67,25 +64,25 @@ UserWhere=0
 UserWhereText=
 [Table8]
 SchemaName=
-TableName=Manufacturing
+TableName=Isolators
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table9]
 SchemaName=
-TableName=Mechanical
+TableName=Manufacturing
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table10]
 SchemaName=
-TableName=Optoelectronics - LEDs
+TableName=Mechanical
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table11]
 SchemaName=
-TableName=Optoelectronics - Optocouplers
+TableName=Optoelectronics
 Enabled=True
 UserWhere=0
 UserWhereText=
@@ -113,9 +110,6 @@ TableName=Passives - Inductors
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=99|Description0=515|Library Ref0=77|Library Path0=135|Footprint Ref0=190|Footprint Path0=195|Footprint Ref 20=106|Footprint Path 20=145|Footprint Ref 30=107|Footprint Path 30=145|ID0=34|Manufacturer0=99|Manufacturer 10=102|Category0=87|RoHS0=51|Manufacturer Part Number 10=169|ComponentLink1URL0=445|ComponentLink1Description0=445|ComponentLink2URL0=504|ComponentLink2Description0=504|ComponentLink3URL0=451|ComponentLink3Description0=451|ComponentLink4URL0=504|ComponentLink4Description0=504|ComponentLink5URL0=420|ComponentLink5Description0=420|Supplier 10=87|Supplier Part Number 10=142|Description 10=433|Stock 10=60|Pricing 10=429|Supplier 20=87|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Case Code (Imperial)0=127|Case Code (Metric)0=118|Case/Package0=93|Construction0=90|Depth0=55|Features0=67|Height0=58|Lead Free0=72|Length0=59|Manufacturer Part Number0=160|Max Operating Temperature0=168|Max Power Dissipation0=140|Military Standard0=111|Min Operating Temperature0=167|Number of Terminations0=148|Package Quantity0=112|Packaging0=81|Power Rating0=92|REACH SVHC0=89|Resistance0=77|Resistance Tolerance0=130|Resistor Type0=91|RoHS Compliant0=107|Series0=64|Size Code0=73|Temperature Coefficient0=147|Termination0=85|Tolerance0=73|Voltage Rating0=100|Weight0=61|Width0=57|Working Voltage0=111|Technology0=83|Mount0=84|Contact Plating0=102|Thickness0=73|Radiation Hardening0=131|Capacitance0=85|Dielectric0=70|Core Material0=92|Inductance0=80|Max DC Current0=104|DC Resistance (DCR)0=126|Shielding0=72|Current Rating0=99|Test Frequency0=100|Self Resonant Frequency0=150|Q Factor0=66|DC Current0=80|Inductance Tolerance0=133|Current0=62|HEIGHT - Seated (Max)0=137|Voltage Rating (DC)0=124|Number of Pins0=102|Dielectric Material0=115|Ripple Current0=98|Leakage Current0=107|Life (Hours)0=81|Ripple Current (AC)0=121|Voltage0=63|Dissipation Factor0=116|Diameter0=69|Saturation Current0=119|RMS Current (Irms)0=118|Series Resistance0=110|Inductor Type0=94|Size0=43
 [Table16]
 SchemaName=
 TableName=Passives - Resistors
@@ -128,9 +122,6 @@ TableName=RF and Wireless
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Description0=577|Library Ref0=77|Library Path0=167|Footprint Ref0=92|Footprint Path0=179|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|ID0=34|Sub Category 10=199|Sub Category 20=101|Manufacturer0=93
 [Table18]
 SchemaName=
 TableName=Sensors
@@ -139,73 +130,16 @@ UserWhere=0
 UserWhereText=
 [Table19]
 SchemaName=
+TableName=Switches
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table20]
+SchemaName=
 TableName=logo
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Library Path0=120|Footprint Ref0=92|Footprint Path0=132|Footprint Ref 20=101|Footprint Path 20=132|Footprint Ref 30=101|Footprint Path 30=107|Part Number0=87|ID0=34
-[Table20]
-SchemaName=
-TableName=~TMPCLP144501
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Description0=382|Library Ref0=77|Library Path0=103|Footprint Ref0=92|Footprint Path0=115|Footprint Ref 20=101|Footprint Path 20=115|Footprint Ref 30=101|Footprint Path 30=115|ID0=34|Category0=190|Manufacturer0=100|Manufacturer Part Number0=160|ComponentLink1URL0=131|ComponentLink1Description0=170|ComponentLink2URL0=131|ComponentLink2Description0=170|ComponentLink3URL0=131|ComponentLink3Description0=170|ComponentLink4URL0=131|ComponentLink4Description0=170|ComponentLink5URL0=131|ComponentLink5Description0=170|Supplier 10=75|Supplier Part Number 10=142|Description 10=91|Category 10=78|Stock 10=60|Pricing 10=435|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Case/Package0=93|Contact Plating0=102|Conversion Rate0=107|Differential Nonlinearity0=147|Height0=58|Interface0=68|Lead Free0=72|Length0=59|Max Operating Temperature0=168|Max Power Dissipation0=140|Max Supply Voltage0=125|Min Operating Temperature0=167|Min Supply Voltage0=124|Mount0=84|Nominal Supply CurrentNominal Supply Current0=269|Nominal Supply Current0=146|Number of A/D Converters0=158|Number of Analog Inputs0=154|Number of Bits0=99|Number of Channels0=129|Number of Converters0=136|Number of Elements0=127|Number of Inputs0=114|Number of Pins0=102|Operating Supply Voltage0=157|Package Quantity0=112|Packaging0=76|Polarity0=61|Power Consumption0=128|Power Dissipation0=116|Radiation Hardening0=131|REACH SVHC0=89|Resolution0=79|RoHS0=51|RoHS Compliant0=107|Sampling Rate0=97|Supply Type0=85|Width0=55
-[Table21]
-SchemaName=
-TableName=~TMPCLP180011
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table22]
-SchemaName=
-TableName=~TMPCLP353861
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=118|Description0=489|Library Ref0=102|Library Path0=190|Footprint Ref0=138|Footprint Path0=202|Footprint Ref 20=137|Footprint Path 20=202|Footprint Ref 30=138|Footprint Path 30=202|ID0=34|Category0=242|Manufacturer0=105|Manufacturer Part Number0=160|Supplier 10=75|Supplier Part Number 10=163|Description 10=174|Category 10=242|Stock 10=60|Pricing 10=975|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Amplifier Type0=165|Case/Package0=93|Common Mode Rejection Ratio0=183|Gain Bandwidth Product0=149|Input Bias Current0=116|Input Offset Voltage (Vos)0=157|Max Operating Temperature0=168|Max Supply Voltage0=125|Min Operating Temperature0=167|Min Supply Voltage0=124|Mount0=84|Number of Circuits0=119|Number of Elements0=127|Number of Pins0=102|Operating Supply Current0=156|Output Current per Channel0=169|Package Quantity0=112|Packaging0=81|Radiation Hardening0=131|RoHS Compliant0=107|Series0=123|Slew Rate0=73|Unity Gain Bandwidth Product0=179|Voltage Gain0=90|ComponentLink1URL0=684|ComponentLink1Description0=684|RoHS0=51|Min Dual Supply Voltage0=151|Max Dual Supply Voltage0=152|Power Supply Rejection Ratio (PSRR)0=209|Length0=59|Width0=55|Height0=58|Lead Free0=81|-3db Bandwidth0=106|Number of Amplifiers0=132|Number of Channels0=129|Contact Plating0=102|Input Resistance0=108|REACH SVHC0=89|Bandwidth0=79|Input Offset Voltage-Max0=154|Nominal Supply Current0=146|Max Supply Current0=124|Supply Current0=100
-[Table23]
-SchemaName=
-TableName=~TMPCLP477161
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table24]
-SchemaName=
-TableName=~TMPCLP534951
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table25]
-SchemaName=
-TableName=~TMPCLP544141
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table26]
-SchemaName=
-TableName=~TMPCLP565111
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=110|Library Ref0=92|Library Path0=131|Footprint Ref0=138|Footprint Path0=143|Footprint Ref 20=101|Footprint Path 20=142|Footprint Ref 30=101|Footprint Path 30=142|Description0=445|ID0=34|Field10=54|Field20=54|Field30=54|Manufacturer 10=105|Manufacturer Part Number 10=169|RoHS 10=60|ComponentLink1URL0=683|ComponentLink1Description0=683|ComponentLink2URL0=412|ComponentLink2Description0=412|ComponentLink3URL0=412|ComponentLink3Description0=412|ComponentLink4URL0=412|ComponentLink4Description0=412|ComponentLink5URL0=405|ComponentLink5Description0=405|Supplier 10=87|Supplier Part Number 10=142|Description 10=412|Category 10=148|Stock 10=60|Pricing 10=512|Supplier 20=75|Supplier Part Number 20=142|Supplier 30=75|Supplier Part Number 30=142|Dropout Voltage0=110|Lead Free0=81|Manufacturer0=144|Manufacturer Part Number0=160|Max Operating Temperature0=168|Min Current Limit0=112|Min Operating Temperature0=167|Mount0=84|Number of Pins0=102|Number of Regulators0=137|Output Current0=103|Output Voltage0=104|Packaging0=81|RoHS Compliant0=107|Accuracy0=67|Case/Package0=93|Category0=168|Height0=58|Length0=59|Max Input Voltage0=118|Max Output Current0=127|Number of Outputs0=124|Output Type0=88|Package Quantity0=112|Polarity0=61|Power Supply Rejection Ratio (PSRR)0=209|Quiescent Current0=116|Radiation Hardening0=131|Reference Voltage0=117|Width0=55|Contact Plating0=102|Switching Frequency0=130|Min Input Voltage0=117|Operating Supply Voltage0=157|RoHS0=51|Efficiency0=71|Min Output Voltage0=127|Max Output Voltage0=128|Topology0=177|Series0=111|Synchronous Rectifier0=135|Output Configuration0=137|Weight0=65|REACH SVHC0=89
-[Table27]
-SchemaName=
-TableName=~TMPCLP72121
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Description0=194|Library Ref0=77|Library Path0=103|Footprint Ref0=92|Footprint Path0=115|Footprint Ref 20=101|Footprint Path 20=115|Footprint Ref 30=101|Footprint Path 30=115|ID0=34|Sub Category 10=101|Sub Category 20=185|Manufacturer0=100
 [FieldMap1]
 Options=FieldName=Batteries.Part Number|TableNameOnly=Batteries|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -347,85 +281,85 @@ Options=FieldName=ICs.Footprint Ref 3|TableNameOnly=ICs|FieldNameOnly=Footprint 
 [FieldMap70]
 Options=FieldName=ICs.Footprint Path 3|TableNameOnly=ICs|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap71]
-Options=FieldName=Manufacturing.Part Number|TableNameOnly=Manufacturing|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Part Number|TableNameOnly=Isolators|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap72]
-Options=FieldName=Manufacturing.Description|TableNameOnly=Manufacturing|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Description|TableNameOnly=Isolators|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap73]
-Options=FieldName=Manufacturing.Library Ref|TableNameOnly=Manufacturing|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Library Ref|TableNameOnly=Isolators|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap74]
-Options=FieldName=Manufacturing.Library Path|TableNameOnly=Manufacturing|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Library Path|TableNameOnly=Isolators|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap75]
-Options=FieldName=Manufacturing.Footprint Ref|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Footprint Ref|TableNameOnly=Isolators|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap76]
-Options=FieldName=Manufacturing.Footprint Path|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Footprint Path|TableNameOnly=Isolators|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap77]
-Options=FieldName=Manufacturing.Footprint Ref 2|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Footprint Ref 2|TableNameOnly=Isolators|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap78]
-Options=FieldName=Manufacturing.Footprint Path 2|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Footprint Path 2|TableNameOnly=Isolators|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap79]
-Options=FieldName=Manufacturing.Footprint Ref 3|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Footprint Ref 3|TableNameOnly=Isolators|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap80]
-Options=FieldName=Manufacturing.Footprint Path 3|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Isolators.Footprint Path 3|TableNameOnly=Isolators|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap81]
-Options=FieldName=Mechanical.Part Number|TableNameOnly=Mechanical|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Part Number|TableNameOnly=Manufacturing|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap82]
-Options=FieldName=Mechanical.Description|TableNameOnly=Mechanical|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Description|TableNameOnly=Manufacturing|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap83]
-Options=FieldName=Mechanical.Library Ref|TableNameOnly=Mechanical|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Library Ref|TableNameOnly=Manufacturing|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap84]
-Options=FieldName=Mechanical.Library Path|TableNameOnly=Mechanical|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Library Path|TableNameOnly=Manufacturing|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap85]
-Options=FieldName=Mechanical.Footprint Ref|TableNameOnly=Mechanical|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Footprint Ref|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap86]
-Options=FieldName=Mechanical.Footprint Path|TableNameOnly=Mechanical|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Footprint Path|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap87]
-Options=FieldName=Mechanical.Footprint Ref 2|TableNameOnly=Mechanical|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Footprint Ref 2|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap88]
-Options=FieldName=Mechanical.Footprint Path 2|TableNameOnly=Mechanical|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Footprint Path 2|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap89]
-Options=FieldName=Mechanical.Footprint Ref 3|TableNameOnly=Mechanical|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Footprint Ref 3|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap90]
-Options=FieldName=Mechanical.Footprint Path 3|TableNameOnly=Mechanical|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Manufacturing.Footprint Path 3|TableNameOnly=Manufacturing|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap91]
-Options=FieldName=Optoelectronics - LEDs.Part Number|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Part Number|TableNameOnly=Mechanical|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap92]
-Options=FieldName=Optoelectronics - LEDs.Description|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Description|TableNameOnly=Mechanical|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap93]
-Options=FieldName=Optoelectronics - LEDs.Library Ref|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Library Ref|TableNameOnly=Mechanical|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap94]
-Options=FieldName=Optoelectronics - LEDs.Library Path|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Library Path|TableNameOnly=Mechanical|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap95]
-Options=FieldName=Optoelectronics - LEDs.Footprint Ref|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Footprint Ref|TableNameOnly=Mechanical|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap96]
-Options=FieldName=Optoelectronics - LEDs.Footprint Path|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Footprint Path|TableNameOnly=Mechanical|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap97]
-Options=FieldName=Optoelectronics - LEDs.Footprint Ref 2|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Footprint Ref 2|TableNameOnly=Mechanical|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap98]
-Options=FieldName=Optoelectronics - LEDs.Footprint Path 2|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Footprint Path 2|TableNameOnly=Mechanical|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap99]
-Options=FieldName=Optoelectronics - LEDs.Footprint Ref 3|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Footprint Ref 3|TableNameOnly=Mechanical|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap100]
-Options=FieldName=Optoelectronics - LEDs.Footprint Path 3|TableNameOnly=Optoelectronics - LEDs|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Mechanical.Footprint Path 3|TableNameOnly=Mechanical|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap101]
-Options=FieldName=Optoelectronics - Optocouplers.Part Number|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Part Number|TableNameOnly=Optoelectronics|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap102]
-Options=FieldName=Optoelectronics - Optocouplers.Description|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Description|TableNameOnly=Optoelectronics|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap103]
-Options=FieldName=Optoelectronics - Optocouplers.Library Ref|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Library Path|TableNameOnly=Optoelectronics|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap104]
-Options=FieldName=Optoelectronics - Optocouplers.Library Path|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Library Ref|TableNameOnly=Optoelectronics|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap105]
-Options=FieldName=Optoelectronics - Optocouplers.Footprint Ref|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Footprint Ref|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap106]
-Options=FieldName=Optoelectronics - Optocouplers.Footprint Path|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Footprint Path|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap107]
-Options=FieldName=Optoelectronics - Optocouplers.Footprint Ref 2|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Footprint Ref 2|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap108]
-Options=FieldName=Optoelectronics - Optocouplers.Footprint Path 2|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Footprint Path 2|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap109]
-Options=FieldName=Optoelectronics - Optocouplers.Footprint Ref 3|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Footprint Ref 3|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap110]
-Options=FieldName=Optoelectronics - Optocouplers.Footprint Path 3|TableNameOnly=Optoelectronics - Optocouplers|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Optoelectronics.Footprint Path 3|TableNameOnly=Optoelectronics|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap111]
 Options=FieldName=Passives - Capacitors.Part Number|TableNameOnly=Passives - Capacitors|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap112]
@@ -567,152 +501,40 @@ Options=FieldName=Sensors.Footprint Ref 3|TableNameOnly=Sensors|FieldNameOnly=Fo
 [FieldMap180]
 Options=FieldName=Sensors.Footprint Path 3|TableNameOnly=Sensors|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap181]
-Options=FieldName=logo.Library Ref|TableNameOnly=logo|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Part Number|TableNameOnly=Switches|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap182]
-Options=FieldName=logo.Library Path|TableNameOnly=logo|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Description|TableNameOnly=Switches|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap183]
-Options=FieldName=logo.Footprint Ref|TableNameOnly=logo|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Library Ref|TableNameOnly=Switches|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap184]
-Options=FieldName=logo.Footprint Path|TableNameOnly=logo|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Library Path|TableNameOnly=Switches|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap185]
-Options=FieldName=logo.Footprint Ref 2|TableNameOnly=logo|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Ref|TableNameOnly=Switches|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap186]
-Options=FieldName=logo.Footprint Path 2|TableNameOnly=logo|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Path|TableNameOnly=Switches|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap187]
-Options=FieldName=logo.Footprint Ref 3|TableNameOnly=logo|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Ref 2|TableNameOnly=Switches|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap188]
-Options=FieldName=logo.Footprint Path 3|TableNameOnly=logo|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Path 2|TableNameOnly=Switches|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap189]
-Options=FieldName=logo.Part Number|TableNameOnly=logo|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Ref 3|TableNameOnly=Switches|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap190]
-Options=FieldName=~TMPCLP144501.Part Number|TableNameOnly=~TMPCLP144501|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Switches.Footprint Path 3|TableNameOnly=Switches|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap191]
-Options=FieldName=~TMPCLP144501.Description|TableNameOnly=~TMPCLP144501|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Library Ref|TableNameOnly=logo|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap192]
-Options=FieldName=~TMPCLP144501.Library Ref|TableNameOnly=~TMPCLP144501|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Library Path|TableNameOnly=logo|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap193]
-Options=FieldName=~TMPCLP144501.Library Path|TableNameOnly=~TMPCLP144501|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Footprint Ref|TableNameOnly=logo|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap194]
-Options=FieldName=~TMPCLP144501.Footprint Ref|TableNameOnly=~TMPCLP144501|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Footprint Path|TableNameOnly=logo|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap195]
-Options=FieldName=~TMPCLP144501.Footprint Path|TableNameOnly=~TMPCLP144501|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Footprint Ref 2|TableNameOnly=logo|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap196]
-Options=FieldName=~TMPCLP144501.Footprint Ref 2|TableNameOnly=~TMPCLP144501|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Footprint Path 2|TableNameOnly=logo|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap197]
-Options=FieldName=~TMPCLP144501.Footprint Path 2|TableNameOnly=~TMPCLP144501|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Footprint Ref 3|TableNameOnly=logo|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap198]
-Options=FieldName=~TMPCLP144501.Footprint Ref 3|TableNameOnly=~TMPCLP144501|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Footprint Path 3|TableNameOnly=logo|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap199]
-Options=FieldName=~TMPCLP144501.Footprint Path 3|TableNameOnly=~TMPCLP144501|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap200]
-Options=FieldName=~TMPCLP180011.Part Number|TableNameOnly=~TMPCLP180011|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap201]
-Options=FieldName=~TMPCLP180011.Description|TableNameOnly=~TMPCLP180011|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap202]
-Options=FieldName=~TMPCLP180011.Library Ref|TableNameOnly=~TMPCLP180011|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap203]
-Options=FieldName=~TMPCLP180011.Library Path|TableNameOnly=~TMPCLP180011|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap204]
-Options=FieldName=~TMPCLP180011.Footprint Ref|TableNameOnly=~TMPCLP180011|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap205]
-Options=FieldName=~TMPCLP180011.Footprint Path|TableNameOnly=~TMPCLP180011|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap206]
-Options=FieldName=~TMPCLP353861.Part Number|TableNameOnly=~TMPCLP353861|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap207]
-Options=FieldName=~TMPCLP353861.Description|TableNameOnly=~TMPCLP353861|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap208]
-Options=FieldName=~TMPCLP353861.Library Ref|TableNameOnly=~TMPCLP353861|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap209]
-Options=FieldName=~TMPCLP353861.Library Path|TableNameOnly=~TMPCLP353861|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap210]
-Options=FieldName=~TMPCLP353861.Footprint Ref|TableNameOnly=~TMPCLP353861|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap211]
-Options=FieldName=~TMPCLP353861.Footprint Path|TableNameOnly=~TMPCLP353861|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap212]
-Options=FieldName=~TMPCLP353861.Footprint Ref 2|TableNameOnly=~TMPCLP353861|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap213]
-Options=FieldName=~TMPCLP353861.Footprint Path 2|TableNameOnly=~TMPCLP353861|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap214]
-Options=FieldName=~TMPCLP353861.Footprint Ref 3|TableNameOnly=~TMPCLP353861|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap215]
-Options=FieldName=~TMPCLP353861.Footprint Path 3|TableNameOnly=~TMPCLP353861|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap216]
-Options=FieldName=~TMPCLP477161.Part Number|TableNameOnly=~TMPCLP477161|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap217]
-Options=FieldName=~TMPCLP477161.Description|TableNameOnly=~TMPCLP477161|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap218]
-Options=FieldName=~TMPCLP477161.Library Ref|TableNameOnly=~TMPCLP477161|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap219]
-Options=FieldName=~TMPCLP477161.Library Path|TableNameOnly=~TMPCLP477161|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap220]
-Options=FieldName=~TMPCLP477161.Footprint Ref|TableNameOnly=~TMPCLP477161|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap221]
-Options=FieldName=~TMPCLP477161.Footprint Path|TableNameOnly=~TMPCLP477161|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap222]
-Options=FieldName=~TMPCLP477161.Footprint Ref 2|TableNameOnly=~TMPCLP477161|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap223]
-Options=FieldName=~TMPCLP477161.Footprint Path 2|TableNameOnly=~TMPCLP477161|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap224]
-Options=FieldName=~TMPCLP477161.Footprint Ref 3|TableNameOnly=~TMPCLP477161|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap225]
-Options=FieldName=~TMPCLP477161.Footprint Path 3|TableNameOnly=~TMPCLP477161|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap226]
-Options=FieldName=~TMPCLP544141.Part Number|TableNameOnly=~TMPCLP544141|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap227]
-Options=FieldName=~TMPCLP544141.Description|TableNameOnly=~TMPCLP544141|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap228]
-Options=FieldName=~TMPCLP544141.Library Ref|TableNameOnly=~TMPCLP544141|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap229]
-Options=FieldName=~TMPCLP544141.Library Path|TableNameOnly=~TMPCLP544141|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap230]
-Options=FieldName=~TMPCLP544141.Footprint Ref|TableNameOnly=~TMPCLP544141|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap231]
-Options=FieldName=~TMPCLP544141.Footprint Path|TableNameOnly=~TMPCLP544141|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap232]
-Options=FieldName=~TMPCLP544141.Footprint Ref 2|TableNameOnly=~TMPCLP544141|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap233]
-Options=FieldName=~TMPCLP544141.Footprint Path 2|TableNameOnly=~TMPCLP544141|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap234]
-Options=FieldName=~TMPCLP544141.Footprint Ref 3|TableNameOnly=~TMPCLP544141|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap235]
-Options=FieldName=~TMPCLP544141.Footprint Path 3|TableNameOnly=~TMPCLP544141|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap236]
-Options=FieldName=~TMPCLP565111.Part Number|TableNameOnly=~TMPCLP565111|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap237]
-Options=FieldName=~TMPCLP565111.Library Ref|TableNameOnly=~TMPCLP565111|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap238]
-Options=FieldName=~TMPCLP565111.Library Path|TableNameOnly=~TMPCLP565111|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap239]
-Options=FieldName=~TMPCLP565111.Footprint Ref|TableNameOnly=~TMPCLP565111|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap240]
-Options=FieldName=~TMPCLP565111.Footprint Path|TableNameOnly=~TMPCLP565111|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap241]
-Options=FieldName=~TMPCLP565111.Footprint Ref 2|TableNameOnly=~TMPCLP565111|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap242]
-Options=FieldName=~TMPCLP565111.Footprint Path 2|TableNameOnly=~TMPCLP565111|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap243]
-Options=FieldName=~TMPCLP565111.Footprint Ref 3|TableNameOnly=~TMPCLP565111|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap244]
-Options=FieldName=~TMPCLP565111.Footprint Path 3|TableNameOnly=~TMPCLP565111|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap245]
-Options=FieldName=~TMPCLP565111.Description|TableNameOnly=~TMPCLP565111|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap246]
-Options=FieldName=~TMPCLP72121.Part Number|TableNameOnly=~TMPCLP72121|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap247]
-Options=FieldName=~TMPCLP72121.Description|TableNameOnly=~TMPCLP72121|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap248]
-Options=FieldName=~TMPCLP72121.Library Ref|TableNameOnly=~TMPCLP72121|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap249]
-Options=FieldName=~TMPCLP72121.Library Path|TableNameOnly=~TMPCLP72121|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap250]
-Options=FieldName=~TMPCLP72121.Footprint Ref|TableNameOnly=~TMPCLP72121|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap251]
-Options=FieldName=~TMPCLP72121.Footprint Path|TableNameOnly=~TMPCLP72121|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap252]
-Options=FieldName=~TMPCLP72121.Footprint Ref 2|TableNameOnly=~TMPCLP72121|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap253]
-Options=FieldName=~TMPCLP72121.Footprint Path 2|TableNameOnly=~TMPCLP72121|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap254]
-Options=FieldName=~TMPCLP72121.Footprint Ref 3|TableNameOnly=~TMPCLP72121|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap255]
-Options=FieldName=~TMPCLP72121.Footprint Path 3|TableNameOnly=~TMPCLP72121|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=logo.Part Number|TableNameOnly=logo|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
